@@ -5,7 +5,7 @@ body {
   font-family: Helvetica;
   margin: 0;
   font-size: 22px;
-
+  opacity: .9;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
   height: 50px;
   width: 167px;
   padding-left: 10px;
-  padding-top: 10px;
+  padding-top: 9px;
   }
 
 .nav {
@@ -70,24 +70,35 @@ header {
   position: relative;
   display: inline-flex;
   flex-direction: column;
-  flex-wrap: wrap;
   top: 100px;
-  border: 1px solid red;
   width: 1000px;
   color: white;
   font-weight: bold;
 }
 
-.tea {
-  display: block;
+.teas {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.tea span {
-  display: inline-block;
+.tea {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .tea img {
-  display: inline-block;
   height: 200px;
   width:300px;
+}
+
+.locations {
+  display: inline-flex;
+  position: relative;
+  top: 120px;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../Images/img-locations-background.jpg")
 }
