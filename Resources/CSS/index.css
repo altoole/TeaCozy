@@ -1,5 +1,5 @@
 body {
-  display:block;
+  display: block;
   text-align: center;
   background-color:black;
   font-family: Helvetica;
@@ -7,7 +7,6 @@ body {
   font-size: 22px;
   Opacity: .9
 }
-<!--Opacity: .9 -->
 
 header {
   display: flex;
@@ -90,6 +89,10 @@ header {
   padding: 10px;
 }
 
+.tea span {
+  padding-top: 10px;
+}
+
 .tea img {
   height: 200px;
   width:300px;
@@ -108,17 +111,34 @@ header {
   color: white;
 }
 
-.locations h2 {
-  padding-bottom: 15px;
-}
-.location {
+.locals {
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
+}
+
+.location {
   background-color: black;
   width:300px;
   opacity: 1;
+  margin: 15px;
+}
+
+.contact {
+  position: relative;
+  top: 120px;
+  padding-top: 10px;
+  color: white;
+  height: 200px;
+}
+
+.contact a {
+  color: white;
+}
+
+.footer {
+  position: relative;
+  text-align: left;
+  top: 100px;
+  color: white;
 }
